@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Добавляем отступ снизу */
+}
+
+button {
+  background-color: #4CAF50; /* Зеленый цвет фона */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px; /* Добавляем скругление углов */
+}
+
+button:hover {
+  background-color: #3e8e41; /* Темнее зеленый при наведении */
+}

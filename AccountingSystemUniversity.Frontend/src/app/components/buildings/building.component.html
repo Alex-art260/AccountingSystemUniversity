@@ -1,0 +1,85 @@
+<h1>Управление корпусами</h1>
+
+<div *ngIf="isLoading; else buildingsList">
+  Загрузка...
+</div>
+
+<ng-template #buildingsList>
+  <table *ngIf="buildings.length > 0">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Название</th>
+        <th>Адрес</th>
+        <th>Этажи</th>
+        <th>Другое</th>
+        <th>Действия</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let building of buildings">
+        <td>{{ building.id }}</td>
+        <td>{{ building.name }}</td>
+        <td>{{ building.address }}</td>
+        <td>{{ building.floor }}</td>
+        <td>{{ building.other }}</td>
+        <td>
+          <button (click)="editBuilding(building)">Редактировать</button>
+          <button (click)="deleteBuilding(building.id)">Удалить</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p *ngIf="buildings.length === 0">Список корпусов пуст.</p>
+
+  <button (click)="addBuilding()">Добавить корпус</button>
+</ng-template> 
+
+<div *ngIf="showAddForm">
+  <form (ngSubmit)="addBuilding()">
+    <h2>Добавить корпус</h2>
+    <div>
+      <label for="name">Название:</label>
+      <input type="text" id="name" [(ngModel)]="newBuilding.name" name="newBuilding.name">
+    </div>
+    <div>
+      <label for="address">Адрес:</label>
+      <input type="text" id="address" [(ngModel)]="newBuilding.address" name="newBuilding.address">
+    </div>
+    <div>
+      <label for="floor">Этажи:</label>
+      <input type="text" id="floor" [(ngModel)]="newBuilding.floor" name="newBuilding.floor">
+    </div>
+    <div>
+      <label for="other">Другое:</label>
+      <input type="text" id="other" [(ngModel)]="newBuilding.other" name="newBuilding.other">
+    </div>
+    <button type="submit" (click)="saveBuilding()">Добавить</button>
+  </form>
+</div>
+
+
+<div *ngIf="editingBuilding"> 
+  <form (ngSubmit)="saveBuilding()">
+    <h2>Редактировать корпус</h2>
+    <input type="hidden" [(ngModel)]="editingBuilding.id">
+    <div>
+      <label for="name">Название:</label>
+      <input type="text" id="name" [(ngModel)]="editingBuilding.name" name="editingBuilding.name">
+    </div>
+    <div>
+      <label for="address">Адрес:</label>
+      <input type="text" id="address" [(ngModel)]="editingBuilding.address" name="editingBuilding.address">
+    </div>
+    <div>
+      <label for="floor">Этажи:</label>
+      <input type="text" id="floor" [(ngModel)]="editingBuilding.floor" name="editingBuilding.floor">
+    </div>
+    <div>
+      <label for="other">Другое:</label>
+      <input type="text" id="other" [(ngModel)]="editingBuilding.other" name="editingBuilding.other">
+    </div>
+    <button type="submit" (click)="saveBuilding()">Сохранить</button>
+  </form>
+</div>

@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "DD5Ngb5rA8cbxNaK/mfMU4a09xAR6ykW9s5jGDyREEw=",
+  "Source": "AccountingSystemUniversity",
+  "BasePath": "_content/AccountingSystemUniversity",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AccountingSystemUniversity\\wwwroot",
+      "Source": "AccountingSystemUniversity",
+      "ContentRoot": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountingSystemUniversity\\wwwroot\\",
+      "BasePath": "_content/AccountingSystemUniversity",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

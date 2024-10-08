@@ -1,0 +1,422 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE5CA5C-2FFF-43A6-B465-FF5E6E12C7E3}|AccountingSystemUniversity\\AccountingSystemUniversity.csproj|c:\\projects\\test\\accountingsystemuniversity\\accountingsystemuniversity\\accountingsystemuniversity\\services\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE5CA5C-2FFF-43A6-B465-FF5E6E12C7E3}|AccountingSystemUniversity\\AccountingSystemUniversity.csproj|solutionrelative:accountingsystemuniversity\\services\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE5CA5C-2FFF-43A6-B465-FF5E6E12C7E3}|AccountingSystemUniversity\\AccountingSystemUniversity.csproj|c:\\projects\\test\\accountingsystemuniversity\\accountingsystemuniversity\\accountingsystemuniversity\\interfaces\\irabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE5CA5C-2FFF-43A6-B465-FF5E6E12C7E3}|AccountingSystemUniversity\\AccountingSystemUniversity.csproj|solutionrelative:accountingsystemuniversity\\interfaces\\irabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|c:\\projects\\test\\accountingsystemuniversity\\accountingsystemuniversity\\accountauditory\\services\\rabbitmqconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|solutionrelative:accountauditory\\services\\rabbitmqconsumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE5CA5C-2FFF-43A6-B465-FF5E6E12C7E3}|AccountingSystemUniversity\\AccountingSystemUniversity.csproj|c:\\projects\\test\\accountingsystemuniversity\\accountingsystemuniversity\\accountingsystemuniversity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1EE5CA5C-2FFF-43A6-B465-FF5E6E12C7E3}|AccountingSystemUniversity\\AccountingSystemUniversity.csproj|solutionrelative:accountingsystemuniversity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE5CA5C-2FFF-43A6-B465-FF5E6E12C7E3}|AccountingSystemUniversity\\AccountingSystemUniversity.csproj|c:\\projects\\test\\accountingsystemuniversity\\accountingsystemuniversity\\accountingsystemuniversity\\services\\buildingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE5CA5C-2FFF-43A6-B465-FF5E6E12C7E3}|AccountingSystemUniversity\\AccountingSystemUniversity.csproj|solutionrelative:accountingsystemuniversity\\services\\buildingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE5CA5C-2FFF-43A6-B465-FF5E6E12C7E3}|AccountingSystemUniversity\\AccountingSystemUniversity.csproj|c:\\projects\\test\\accountingsystemuniversity\\accountingsystemuniversity\\accountingsystemuniversity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE5CA5C-2FFF-43A6-B465-FF5E6E12C7E3}|AccountingSystemUniversity\\AccountingSystemUniversity.csproj|solutionrelative:accountingsystemuniversity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|c:\\projects\\test\\accountingsystemuniversity\\accountingsystemuniversity\\accountauditory\\services\\auditoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|solutionrelative:accountauditory\\services\\auditoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|c:\\projects\\test\\accountingsystemuniversity\\accountingsystemuniversity\\accountauditory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|solutionrelative:accountauditory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|c:\\projects\\test\\accountingsystemuniversity\\accountingsystemuniversity\\accountauditory\\controllers\\auditorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|solutionrelative:accountauditory\\controllers\\auditorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|c:\\projects\\test\\accountingsystemuniversity\\accountingsystemuniversity\\accountauditory\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|solutionrelative:accountauditory\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE5CA5C-2FFF-43A6-B465-FF5E6E12C7E3}|AccountingSystemUniversity\\AccountingSystemUniversity.csproj|c:\\projects\\test\\accountingsystemuniversity\\accountingsystemuniversity\\accountingsystemuniversity\\controllers\\buildingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE5CA5C-2FFF-43A6-B465-FF5E6E12C7E3}|AccountingSystemUniversity\\AccountingSystemUniversity.csproj|solutionrelative:accountingsystemuniversity\\controllers\\buildingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|c:\\projects\\test\\accountingsystemuniversity\\accountingsystemuniversity\\accountauditory\\models\\buildingchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|solutionrelative:accountauditory\\models\\buildingchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE5CA5C-2FFF-43A6-B465-FF5E6E12C7E3}|AccountingSystemUniversity\\AccountingSystemUniversity.csproj|c:\\projects\\test\\accountingsystemuniversity\\accountingsystemuniversity\\accountingsystemuniversity\\data\\configuration\\rabbitmqconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE5CA5C-2FFF-43A6-B465-FF5E6E12C7E3}|AccountingSystemUniversity\\AccountingSystemUniversity.csproj|solutionrelative:accountingsystemuniversity\\data\\configuration\\rabbitmqconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|c:\\projects\\test\\accountingsystemuniversity\\accountingsystemuniversity\\accountauditory\\data\\configurations\\rabbitmqconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|solutionrelative:accountauditory\\data\\configurations\\rabbitmqconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|c:\\projects\\test\\accountingsystemuniversity\\accountingsystemuniversity\\accountauditory\\models\\buildings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|solutionrelative:accountauditory\\models\\buildings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|c:\\projects\\test\\accountingsystemuniversity\\accountingsystemuniversity\\accountauditory\\interfaces\\iauditoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|solutionrelative:accountauditory\\interfaces\\iauditoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|c:\\projects\\test\\accountingsystemuniversity\\accountingsystemuniversity\\accountauditory\\models\\dto\\buildingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|solutionrelative:accountauditory\\models\\dto\\buildingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|c:\\projects\\test\\accountingsystemuniversity\\accountingsystemuniversity\\accountauditory\\mappingprofiles\\auditoryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|solutionrelative:accountauditory\\mappingprofiles\\auditoryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|c:\\projects\\test\\accountingsystemuniversity\\accountingsystemuniversity\\accountauditory\\models\\auditory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|solutionrelative:accountauditory\\models\\auditory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|c:\\projects\\test\\accountingsystemuniversity\\accountingsystemuniversity\\accountauditory\\models\\dto\\auditorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|solutionrelative:accountauditory\\models\\dto\\auditorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|c:\\projects\\test\\accountingsystemuniversity\\accountingsystemuniversity\\accountauditory\\accountauditory.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|solutionrelative:accountauditory\\accountauditory.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|c:\\projects\\test\\accountingsystemuniversity\\accountingsystemuniversity\\accountauditory\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{092DC5FF-ED71-47A4-A954-7F5A4CCE2BE7}|AccountAuditory\\AccountAuditory.csproj|solutionrelative:accountauditory\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 587,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BuildingService.cs",
+              "DocumentMoniker": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountingSystemUniversity\\Services\\BuildingService.cs",
+              "RelativeDocumentMoniker": "AccountingSystemUniversity\\Services\\BuildingService.cs",
+              "ToolTip": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountingSystemUniversity\\Services\\BuildingService.cs",
+              "RelativeToolTip": "AccountingSystemUniversity\\Services\\BuildingService.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAACEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T22:01:11.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BuildingChange.cs",
+              "DocumentMoniker": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\Models\\BuildingChange.cs",
+              "RelativeDocumentMoniker": "AccountAuditory\\Models\\BuildingChange.cs",
+              "ToolTip": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\Models\\BuildingChange.cs",
+              "RelativeToolTip": "AccountAuditory\\Models\\BuildingChange.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T21:45:50.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RabbitMqConsumerService.cs",
+              "DocumentMoniker": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\Services\\RabbitMqConsumerService.cs",
+              "RelativeDocumentMoniker": "AccountAuditory\\Services\\RabbitMqConsumerService.cs",
+              "ToolTip": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\Services\\RabbitMqConsumerService.cs",
+              "RelativeToolTip": "AccountAuditory\\Services\\RabbitMqConsumerService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAwwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T21:05:41.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IRabbitMqService.cs",
+              "DocumentMoniker": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountingSystemUniversity\\Interfaces\\IRabbitMqService.cs",
+              "RelativeDocumentMoniker": "AccountingSystemUniversity\\Interfaces\\IRabbitMqService.cs",
+              "ToolTip": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountingSystemUniversity\\Interfaces\\IRabbitMqService.cs",
+              "RelativeToolTip": "AccountingSystemUniversity\\Interfaces\\IRabbitMqService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T21:02:20.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RabbitMqService.cs",
+              "DocumentMoniker": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountingSystemUniversity\\Services\\RabbitMqService.cs",
+              "RelativeDocumentMoniker": "AccountingSystemUniversity\\Services\\RabbitMqService.cs",
+              "ToolTip": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountingSystemUniversity\\Services\\RabbitMqService.cs",
+              "RelativeToolTip": "AccountingSystemUniversity\\Services\\RabbitMqService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T21:01:50.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\Program.cs",
+              "RelativeDocumentMoniker": "AccountAuditory\\Program.cs",
+              "ToolTip": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\Program.cs",
+              "RelativeToolTip": "AccountAuditory\\Program.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T21:00:35.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountingSystemUniversity\\Program.cs",
+              "RelativeDocumentMoniker": "AccountingSystemUniversity\\Program.cs",
+              "ToolTip": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountingSystemUniversity\\Program.cs",
+              "RelativeToolTip": "AccountingSystemUniversity\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAB4AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T21:00:07.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\appsettings.json",
+              "RelativeDocumentMoniker": "AccountAuditory\\appsettings.json",
+              "ToolTip": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\appsettings.json",
+              "RelativeToolTip": "AccountAuditory\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-03T20:59:25.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountingSystemUniversity\\appsettings.json",
+              "RelativeDocumentMoniker": "AccountingSystemUniversity\\appsettings.json",
+              "ToolTip": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountingSystemUniversity\\appsettings.json",
+              "RelativeToolTip": "AccountingSystemUniversity\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-03T20:59:06.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RabbitMqConfiguration.cs",
+              "DocumentMoniker": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountingSystemUniversity\\Data\\Configuration\\RabbitMqConfiguration.cs",
+              "RelativeDocumentMoniker": "AccountingSystemUniversity\\Data\\Configuration\\RabbitMqConfiguration.cs",
+              "ToolTip": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountingSystemUniversity\\Data\\Configuration\\RabbitMqConfiguration.cs",
+              "RelativeToolTip": "AccountingSystemUniversity\\Data\\Configuration\\RabbitMqConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:58:25.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RabbitMqConfiguration.cs",
+              "DocumentMoniker": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\Data\\Configurations\\RabbitMqConfiguration.cs",
+              "RelativeDocumentMoniker": "AccountAuditory\\Data\\Configurations\\RabbitMqConfiguration.cs",
+              "ToolTip": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\Data\\Configurations\\RabbitMqConfiguration.cs",
+              "RelativeToolTip": "AccountAuditory\\Data\\Configurations\\RabbitMqConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T20:56:52.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuditoryProfile.cs",
+              "DocumentMoniker": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\MappingProfiles\\AuditoryProfile.cs",
+              "RelativeDocumentMoniker": "AccountAuditory\\MappingProfiles\\AuditoryProfile.cs",
+              "ToolTip": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\MappingProfiles\\AuditoryProfile.cs",
+              "RelativeToolTip": "AccountAuditory\\MappingProfiles\\AuditoryProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T18:02:11.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Buildings.cs",
+              "DocumentMoniker": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\Models\\Buildings.cs",
+              "RelativeDocumentMoniker": "AccountAuditory\\Models\\Buildings.cs",
+              "ToolTip": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\Models\\Buildings.cs",
+              "RelativeToolTip": "AccountAuditory\\Models\\Buildings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T17:58:48.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BuildingDto.cs",
+              "DocumentMoniker": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\Models\\Dto\\BuildingDto.cs",
+              "RelativeDocumentMoniker": "AccountAuditory\\Models\\Dto\\BuildingDto.cs",
+              "ToolTip": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\Models\\Dto\\BuildingDto.cs",
+              "RelativeToolTip": "AccountAuditory\\Models\\Dto\\BuildingDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T17:59:32.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BuildingController.cs",
+              "DocumentMoniker": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountingSystemUniversity\\Controllers\\BuildingController.cs",
+              "RelativeDocumentMoniker": "AccountingSystemUniversity\\Controllers\\BuildingController.cs",
+              "ToolTip": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountingSystemUniversity\\Controllers\\BuildingController.cs",
+              "RelativeToolTip": "AccountingSystemUniversity\\Controllers\\BuildingController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAwwCEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T11:34:11.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "AccountAuditory\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "AccountAuditory\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T11:32:38.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Auditory.cs",
+              "DocumentMoniker": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\Models\\Auditory.cs",
+              "RelativeDocumentMoniker": "AccountAuditory\\Models\\Auditory.cs",
+              "ToolTip": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\Models\\Auditory.cs",
+              "RelativeToolTip": "AccountAuditory\\Models\\Auditory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T11:23:20.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuditoryDto.cs",
+              "DocumentMoniker": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\Models\\Dto\\AuditoryDto.cs",
+              "RelativeDocumentMoniker": "AccountAuditory\\Models\\Dto\\AuditoryDto.cs",
+              "ToolTip": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\Models\\Dto\\AuditoryDto.cs",
+              "RelativeToolTip": "AccountAuditory\\Models\\Dto\\AuditoryDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T11:18:02.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IAuditoryService.cs",
+              "DocumentMoniker": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\Interfaces\\IAuditoryService.cs",
+              "RelativeDocumentMoniker": "AccountAuditory\\Interfaces\\IAuditoryService.cs",
+              "ToolTip": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\Interfaces\\IAuditoryService.cs",
+              "RelativeToolTip": "AccountAuditory\\Interfaces\\IAuditoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T11:15:42.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuditoryService.cs",
+              "DocumentMoniker": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\Services\\AuditoryService.cs",
+              "RelativeDocumentMoniker": "AccountAuditory\\Services\\AuditoryService.cs",
+              "ToolTip": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\Services\\AuditoryService.cs",
+              "RelativeToolTip": "AccountAuditory\\Services\\AuditoryService.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAAAHQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T11:15:06.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuditoryController.cs",
+              "DocumentMoniker": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\Controllers\\AuditoryController.cs",
+              "RelativeDocumentMoniker": "AccountAuditory\\Controllers\\AuditoryController.cs",
+              "ToolTip": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\Controllers\\AuditoryController.cs",
+              "RelativeToolTip": "AccountAuditory\\Controllers\\AuditoryController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAQwDEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T11:14:43.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AccountAuditory.csproj",
+              "DocumentMoniker": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\AccountAuditory.csproj",
+              "RelativeDocumentMoniker": "AccountAuditory\\AccountAuditory.csproj",
+              "ToolTip": "C:\\Projects\\test\\AccountingSystemUniversity\\AccountingSystemUniversity\\AccountAuditory\\AccountAuditory.csproj",
+              "RelativeToolTip": "AccountAuditory\\AccountAuditory.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-02T10:51:20.506Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 80,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

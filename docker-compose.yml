@@ -1,0 +1,63 @@
+
+services:
+  angular:
+    build: ./AccountingSystemUniversity.Frontend
+    ports:
+      - "4200:80"
+    depends_on:
+      - postgres
+
+  webapi1:
+    build: ./AccountingSystemUniversity/AccountAuditory
+    ports:
+      - "5001:80"
+    environment:
+      - DATABASE_HOST=postgres
+      - DATABASE_NAME=AccountAuditory  # Имя базы данных для webapi1
+      - DATABASE_USER=postgres
+      - DATABASE_PASSWORD=qwerty
+      - ASPNETCORE_DATAProtection_KEYRING_PROVIDER=EphemeralKeyRingProvider  # Используйте EphemeralKeyRingProvider
+      - RABBITMQ__HOSTNAME=rabbitmq # Имя контейнера RabbitMQ в docker-compose.yml
+      - RABBITMQ__PORT=5672  # Порт RabbitMQ 
+      - RABBITMQ__USERNAME=guest  # Пользователь RabbitMQ 
+      - RABBITMQ__PASSWORD=guest  # Пароль RabbitMQ 
+    depends_on:
+      - rabbitmq
+      
+
+
+  webapi2:
+    build: ./AccountingSystemUniversity/AccountingSystemUniversity
+    ports:
+      - "5002:80"
+    environment:
+      - DATABASE_HOST=postgres
+      - DATABASE_NAME=AccountCorpus  # Имя базы данных для webapi2
+      - DATABASE_USER=postgres
+      - DATABASE_PASSWORD=qwerty123
+      - ASPNETCORE_DATAProtection_KEYRING_PROVIDER=AzureKeyVault  # Используйте Azure Key Vault
+      #  - ASPNETCORE_DATAProtection_KEYRING_PROVIDER=EphemeralKeyRingProvider  # Используйте EphemeralKeyRingProvider
+
+  postgres:
+     image: postgres:14.4
+     environment:
+       - POSTGRES_USER=postgres
+       - POSTGRES_PASSWORD=qwerty123
+     volumes:
+       - postgres_data:/var/lib/postgresql/data
+     user: postgres 
+     command: ["bash", "-c", "chown -R postgres:postgres /var/lib/postgresql/data && postgres -c 'max_connections=100' -c 'shared_buffers=256MB' -c 'work_mem=128MB' -c 'maintenance_work_mem=128MB' -c 'checkpoint_completion_target=0.9'  -c 'log_statement=all' -c 'log_min_duration_statement=2000' -c 'log_destination='stderr'' -c 'log_directory='/var/log/postgresql''  -c 'log_truncate_on_rotation=1'  -c 'timezone='UTC'' -c 'archive_mode='off'' -c 'synchronous_commit='on'' -c 'fsync=on' -c 'full_page_writes=on' -c 'wal_level='replica'' -c 'autovacuum=on' -c 'autovacuum_max_workers=2' -c 'autovacuum_vacuum_scale_factor=0.2' -c 'autovacuum_analyze_scale_factor=0.1' -c 'listen_addresses='*'' && psql -U postgres -c 'CREATE DATABASE AccountAuditory;' && psql -U postgres -c 'CREATE DATABASE AccountCorpus;'"]
+
+    
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+
+
+
+volumes:
+  postgres_data:

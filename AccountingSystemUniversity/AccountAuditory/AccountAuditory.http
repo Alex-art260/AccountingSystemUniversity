@@ -1,0 +1,6 @@
+@AccountAuditory_HostAddress = http://localhost:5027
+
+GET {{AccountAuditory_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

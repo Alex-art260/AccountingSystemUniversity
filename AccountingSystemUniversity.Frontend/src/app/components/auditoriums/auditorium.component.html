@@ -1,0 +1,114 @@
+<h1>Управление аудиториями</h1>
+
+<div *ngIf="isLoading; else auditoriumsList">
+  Загрузка...
+</div>
+
+<ng-template #auditoriumsList>
+  <table *ngIf="auditoriums.length > 0">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Корпус</th>
+        <th>Название</th>
+        <th>Тип помещения</th>
+        <th>Вместимость</th>
+        <th>Этажность</th>
+        <th>Номер</th>
+        <th>Действия</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let auditorium of auditoriums">
+        <tr *ngFor="let auditorium of auditoriums">
+          <td>{{ auditorium.id }}</td>
+          <td>{{ auditorium.buildingName }}</td> 
+          <td>{{ auditorium.name }}</td>
+          <td>{{ auditorium.typeRoomName }}</td> 
+          <td>{{ auditorium.capacity | number }}</td>
+          <td>{{ auditorium.floor | number }}</td>
+          <td>{{ auditorium.number }}</td>
+        <td>
+          <button (click)="editAuditorium(auditorium)">Редактировать</button>
+          <button (click)="deleteAuditorium(auditorium.id)">Удалить</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p *ngIf="auditoriums.length === 0">Список аудиторий пуст.</p>
+
+  <button (click)="addAuditorium()">Добавить аудиторию</button>
+</ng-template> 
+
+<div *ngIf="showAddForm">
+  <form (ngSubmit)="saveAuditorium()">
+    <h2>Добавить аудиторию</h2>
+    <div>
+      <label for="building">Корпус:</label>
+      <select id="buildingId" [(ngModel)]="newAuditorium.buildingId" name="newAuditorium.buildingId">
+        <option *ngFor="let building of buildings" [value]="building.id">{{ building.name }}</option>
+      </select>
+    </div>
+    <div>
+      <label for="type">Тип помещения:</label>
+      <select id="type" [(ngModel)]="newAuditorium.typeRoomId" name="newAuditorium.typeRoomId">
+        <option *ngFor="let type of rooms" [value]="type.id">{{ type.name }}</option>
+      </select>
+    </div>
+    <div>
+      <label for="name">Название:</label>
+      <input type="text" id="name" [(ngModel)]="newAuditorium.name" name="newAuditorium.name">
+    </div>
+    <div>
+      <label for="capacity">Вместимость:</label>
+      <input type="number" id="capacity" [(ngModel)]="newAuditorium.capacity" name="newAuditorium.capacity">
+    </div>
+    <div>
+      <label for="floor">Этажность:</label>
+      <input type="number" id="floor" [(ngModel)]="newAuditorium.floor" name="newAuditorium.floor">
+    </div>
+    <div>
+      <label for="number">Номер:</label>
+      <input type="number" id="number" [(ngModel)]="newAuditorium.number" name="newAuditorium.number">
+    </div>
+    <button type="submit">Добавить</button>
+  </form>
+</div>
+
+
+<div *ngIf="editingAuditorium">
+  <form (ngSubmit)="saveAuditorium()">
+    <h2>Редактировать аудиторию</h2>
+    <input type="hidden" [(ngModel)]="editingAuditorium.id" name="id">
+    <div>
+      <label for="name">Название:</label>
+      <input type="text" id="name" [(ngModel)]="editingAuditorium.name" [ngModelOptions]="{standalone: true}" >
+    </div>
+    <div>
+      <label for="building">Корпус:</label>
+      <select id="buildingId" [(ngModel)]="editingAuditorium.buildingId" [ngModelOptions]="{standalone: true}">
+        <option *ngFor="let building of buildings" [value]="building.id">{{ building.name }}</option>
+      </select>
+    </div>
+    <div>
+      <label for="type">Тип помещения:</label>
+      <select id="type" [(ngModel)]="editingAuditorium.typeRoomId" [ngModelOptions]="{standalone: true}">
+        <option *ngFor="let type of rooms" [value]="type.id">{{ type.name }}</option>
+      </select>
+    </div>
+    <div>
+      <label for="capacity">Вместимость:</label>
+      <input type="number" id="capacity" [(ngModel)]="editingAuditorium.capacity" [ngModelOptions]="{standalone: true}">
+    </div>
+    <div>
+      <label for="floor">Этажность:</label>
+      <input type="number" id="floor" [(ngModel)]="editingAuditorium.floor" [ngModelOptions]="{standalone: true}">
+    </div>
+    <div>
+      <label for="number">Номер:</label>
+      <input type="number" id="number" [(ngModel)]="editingAuditorium.number" [ngModelOptions]="{standalone: true}">
+    </div>
+    <button type="submit">Сохранить</button>
+  </form>
+</div>
